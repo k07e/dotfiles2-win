@@ -28,6 +28,7 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            "colorScheme": "Gruvbox dark, hard"
         },
         "list":
         [
@@ -62,7 +63,32 @@
 
     // Add custom color schemes to this array.
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-    "schemes": [],
+    "schemes": [
+        // ref: https://github.com/ShiromMakkad/base16-windows-terminal/blob/master/colors/base16-gruvbox-dark-hard-256.json
+        // Base 16 Gruvbox dark, hard 256 Color Configuration - Windows Terminal
+        // Colors made by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+        {
+            "name": "Gruvbox dark, hard",
+            "background":    "#1d2021",
+            "foreground":    "#d5c4a1",
+            "black":         "#1d2021",
+            "red":           "#fb4934",
+            "green":         "#b8bb26",
+            "yellow":        "#fabd2f",
+            "blue":          "#83a598",
+            "purple":        "#d3869b",
+            "cyan":          "#8ec07c",
+            "white":         "#d5c4a1",
+            "brightBlack":   "#665c54",
+            "brightRed":     "#fb4934",
+            "brightGreen":   "#b8bb26",
+            "brightYellow":  "#fabd2f",
+            "brightBlue":    "#83a598",
+            "brightPurple":  "#d3869b",
+            "brightCyan":    "#8ec07c",
+            "brightWhite":   "#fbf1c7"
+        }
+    ],
 
     // Add custom actions and keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
