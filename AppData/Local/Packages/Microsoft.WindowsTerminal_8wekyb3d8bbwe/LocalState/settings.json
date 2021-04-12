@@ -29,7 +29,8 @@
         {
             // Put settings here that you want to apply to all profiles.
             "colorScheme": "Gruvbox dark, hard",
-            "fontFace": "HackGenNerd Console"
+            "fontFace": "HackGenNerd Console",
+            "fontSize": 14
         },
         "list":
         [
